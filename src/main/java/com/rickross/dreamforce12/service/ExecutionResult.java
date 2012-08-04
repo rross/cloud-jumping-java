@@ -1,9 +1,13 @@
-package com.xede.dreamforce12.service;
+package com.rickross.dreamforce12.service;
 
-public class TestResult 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class ExecutionResult 
 {
 	private Boolean result;
 	private String errorMessage;
+	private String answer;
 	
 	public Boolean getResult() {
 		return result;
@@ -17,6 +21,11 @@ public class TestResult
 	public void setErrorMessage(String errorMessage) {
 		this.errorMessage = errorMessage;
 	}
-	
+	public String getAnswer() {
+		return answer;
+	}
+	public void setAnswer(String answer) {
+		this.answer = answer;
+	}
 	
 }

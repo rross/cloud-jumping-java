@@ -12,7 +12,7 @@
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>com.sun.jersey.config.property.packages</param-name>          
-            <param-value>com.xede.dreamforce12.service</param-value>
+            <param-value>com.rickross.dreamforce12.service</param-value>
         </init-param>      
         <load-on-startup>1</load-on-startup>
     </servlet>

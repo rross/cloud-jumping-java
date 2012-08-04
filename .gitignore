@@ -4,3 +4,14 @@
 *.jar
 *.war
 *.ear
+
+# OS Files
+.DS_Store
+
+# Eclipse Files
+.classpath
+.project
+.settings
+
+# output files
+target/
